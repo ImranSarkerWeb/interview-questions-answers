@@ -12,13 +12,13 @@ window.addEventListener("load", function () {
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
         data-bs-target="#panelsStayOpen-collapse${item.id}" aria-expanded="false"
         aria-controls="panelsStayOpen-collapse${item.id}">
-        ${item.question}
+       <h6> ${item.question}</h6>
     </button>
  </h2>
  <div id="panelsStayOpen-collapse${item.id}" class="accordion-collapse collapse"
     aria-labelledby="panelsStayOpen-heading${item.id}">
     <div class="accordion-body">
-    ${item.answer}
+   <p>  ${item.answer}</p>
     </div>
  </div>
     `;
